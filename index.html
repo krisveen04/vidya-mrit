@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDYA MRIT E-Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VIDYA MRIT</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="new.html" target="_blank">Donation</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" >
+        <video width="1310" height="450" controls>
+            <source src="invideo-ai-1080 Discover Vidya Mrit_ Your Free Learning  2024-10-18.mp4" type="">
+        </video>
+        <h2>Welcome to VIDYA MRIT</h2>
+        <p>Your journey to knowledge begins here. Explore our wide range of courses and start learning today!</p>
+    </section>
+
+    <section id="courses">
+        <h2>Available Courses</h2>
+        <div class="course">
+            <h3>Course 1: Class 1-5th</h3>
+            <p>Video Lecture Available for Class 1-5th</p>
+            <button onclick="enroll('Class 1-5th')">Enroll Now</button>
+        </div>
+        <div class="course">
+            <h3>Course 2: Class 6-10th</h3>
+            <p>Video Lecture Available for Class 6-10th</p>
+            <button onclick="enroll('Class 6-10th')">Enroll Now</button>
+        </div>
+        <div class="course">
+            <h3>Course 3: Class 11-12th(All Streams)</h3>
+            <p>Video Lecture Available for Class 11-12th(All Streams)</p>
+            <button onclick="enroll('Class11-12th(All Streams)')">Enroll Now</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <pre style="font-family: Arial; font-size: large;" >  
+At Vidyamrit, we believe that education is a fundamental right, not a privilege. 
+Our mission is to bridge the gap between quality learning and accessibility by providing free educational resources to students across the globe. 
+Through our platform, students can access a wide range of textbooks, study materials, and e-learning resources completely free of cost.
+We are committed to empowering learners from all walks of life, 
+ensuring that financial constraints don’t stand in the way of knowledge and growth. Education has the power to transform lives, 
+we are dedicated to making that transformation accessible to everyone.
+<b>How We Do It:</b>
+Free Books: We provide free access to digital textbooks and study materials for students from various academic levels.
+Community Support: Vidyamrit is powered by the generosity of individuals who believe in our cause. 
+We accept donations to continue expanding our library and enhancing our offerings.
+Better Education: Our goal is not only to provide resources but also to foster an environment where every learner can thrive. 
+Every donation helps us reach more students and provide better educational opportunities.Join us in our mission to spread the light of knowledge. 
+Whether you are a student in need of resources or a supporter who wants to make a difference, Vidyamrit is here to help build a brighter future for all.
+        </pre>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out!</p>
+        <p>queries@vidyamrit.com</p>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VIDYA MRIT. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

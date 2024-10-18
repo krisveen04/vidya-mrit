@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Collection</title>
+    <style>
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.book-item {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-item img {
+    max-width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book-item p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+.btn{
+  background-color: #35a6e8;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+}
+    </style>
+</head>
+<body>
+<h1>All these books are available at Vidya Mrit free of cost. 
+  Check them out now!</h1>
+    <div class="container">
+        <div class="book-item">
+            <img src="maths.jpg" alt="" />
+            <p>Mathematics Class 10th</p>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="book-item">
+            <img src="jhsp1cc.jpg" alt=" " />
+            <p>Sparsh Class 10th</p>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="book-item">
+            <img src="jhsy1cc.jpg" alt="" />
+            <p>Sanchyan Class 10th </p>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="book-item">
+            <img src="sci.webp" alt="" />
+            <p>Science Class 5th</p>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="book-item">
+            <img src="eng.jpg" alt="" />
+            <p>Looking Around Class 5th</p>
+            <button class="btn">Contact Us</button>
+        </div>
+        <div class="book-item">
+            <img src="ncert_joyful_mathematics_textbook_of_maths_for_class_1.jpg" alt="" />
+            <p>Joyful Class 1st</p>
+            <button class="btn">Contact Us</button>
+        </div>
+    </div>
+</body>
+</html>

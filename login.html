@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="login-container">
+        <h2 style="color:dodgerblue;">VIDYA MRIT</h2>
+        <h2>Login</h2>
+        <form id="loginForm" onsubmit="return validateLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit" onclick="handleLogin()">Login</button>
+            <a href="index.html">Return Home</a>
+        </form>
+        <p id="error-message"></p>
+
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+</html>
